@@ -1,0 +1,33 @@
+<html>
+<head><meta charset="utf-8">
+
+
+
+
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="img/asset/logo%20color.svg">
+<!--Bootstrap-->
+<link rel="stylesheet" href="bootstrap-light.min.css">
+<!--end of bootstrap-->
+<link rel="stylesheet" href="stylesheeet-def.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container" style="max-width:600px;"><div class="row justify-content-center"><div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 col-12">
+
+
+
+<img style="padding-top:40px; padding-bottom:10px;" src="img/asset/error/technician-edit.svg" alt="terjadi kesalahan">
+<h1 style="font-size:48px; line-height:60px; font-weight:bold; padding:10px 0px;"><span style="color:#6BAB79">Terjadi </span><span style="color:#F38500;">Kesalahan</span></h1>
+<div style="font-size:24px; line-height:36px; padding:10px 0px;">Permintaan anda tidak dapat kami proses, silakan hubungi kami di halo@sehatdirumah.com untuk mengakses halaman ini.</div>
+<div style="font-size:16px; padding:10px 0px;"><span style="color:#979797"><i>Kode kesalahan : </i></span><span style="color:#F38500;"><b>401</b></span></div>
+<div style="font-size:16px; padding:10px 0px;">Kunjungi laman lainnya :</div>
+<div><a href="https://sehatdirumah.com/" style="color:#2883C8; font-size:20px;">Beranda</a></div>
+<div><a href="region" style="color:#2883C8; font-size:20px;">Region</a></div>
+<div><a href="peringkat" style="color:#2883C8; font-size:20px;">Peringkat</a></div>
+<div><a href="edukasi" style="color:#2883C8; font-size:20px;">Edukasi</a></div>
+<img style="padding:40px 0px;" src="img/asset/error/logo sehat dirumah.svg" alt="logo sehatdirumah.com">
+
+</div></div></div>
+</body>
+</html>

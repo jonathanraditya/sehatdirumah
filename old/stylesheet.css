@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	margin:auto;
+	justify-content:center;
+}
+section{
+
+}
+article{
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Alegreya', serif;
+}
+h1{
+	font-size:56px;
+}
+h2{
+	font-size:48px;
+}
+h3{
+	font-size:40px;
+}
+h4{
+	font-size:32px;
+}
+h5{
+	font-size:24px;
+}
+h6{
+	font-size:16px;
+}
+p{
+	font-size:16px;
+	line-height:24px;
+}
+.img-proyeksi{
+	width:200px;
+}
+.img-kasus{
+	width:330px;
+}
+.img-ilustrasi{
+	width:100%;
+}
+.update-tanggal{
+	color:white;
+	background-color:black;
+	border:2px solid #00A8FF;
+	text-align:center;
+	margin:0px auto;
+	padding:4px;
+	width:250px;
+}
+.navbar{
+
+}
+.navbar-text{
+
+}
+address{
+
+}
+address div{
+
+}
+address div h6{
+
+}
+address div a{
+
+	
+}
+hr{
+
+}
+article h5{
+
+}
+table{
+
+}
+thead{
+
+}
+tbody{
+
+}
+.headline{
+	font-family: 'Istok Web', sans-serif;
+	color:#979797;
+	margin:20px 5px;
+	font-size:17px;
+}
+.brand-name{
+	font-family: 'Garamond', serif;
+	text-decoration:none;
+	font-size:24px;
+	color:black;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.nav-custom{
+	background-color:white;
+}
+.blog-content{
+	top:40px;
+}
+.nav-hr-margin{
+	margin-top:0px;
+	margin-bottom:15px;
+	width:95%;
+}

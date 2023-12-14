@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="icon" href="img/asset/logo%20color.png">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrap-n.min.css">
+        <!--end of bootstrap-->
+        <meta name="description" content="Indonesia : 20162 Kasus 1278 Meninggal 4838 Sembuh. Statistik, Tinjauan, Peringkat Regional, Edukasi pandemi COVID-19. Pahami, mengerti, antisipasi">
+        <title>Visualisasi Statistik Virus Corona Indonesia - #diRumahAja</title>
+        <link rel="stylesheet" href="stylesheeet-def.min.css">
+        <link rel="stylesheet" href="style-upgrade.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container text-center mt60">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-5 col-md-6 col-sm-7 col-9">
+                    <img class="img-fluid" src="img/asset/upgrade/43040%20%5BConverted%5D.svg" alt="proses upgrade sistem sehatdirumah.com sedang berlangsung">
+                </div>
+            </div>
+            <div class="row justify-content-center mt35">
+                <div class="col">
+                    <h1 class="f32c font-weight-bold">
+                        <span class="cl-blue">Kami sedang bekerja </span>
+                        <span class="cl-yellow">meningkatkan fitur</span>
+                    </h1>
+                    <div class="mt30">
+                        <span class="cl-yellow f24 font-weight-bold">
+                            <span id="hari">9 </span>
+                        </span>
+                        <span class="cl-blue f20">hari </span>
+                        <span class="cl-yellow f24 font-weight-bold">
+                            <span id="jam">21 </span>
+                        </span>
+                        <span class="cl-blue f20">jam </span>
+                        <span class="cl-yellow f24 font-weight-bold">
+                            <span id="menit">50 </span>
+                        </span>
+                        <span class="cl-blue f20">menit </span>
+                        <span class="cl-yellow f24 font-weight-bold">
+                            <span id="detik">13 </span>
+                        </span>
+                        <span class="cl-blue f20">detik</span>
+                    </div>
+                    <div class="f24 font-weight-bold cl-blue mt30">Sebentar ya, sedikit lagi :)</div>
+                    <div class="mt40 mb40">
+                        <a href="landing" class="a-none">
+                            <span style="border-radius:5px; border:2px solid #ebb044;" class="pt6 pb6 pl15 pr15 f30 font-weight-bold mt30 mb30"><span style="color:#ebb044;">Penasaran?</span></span>
+                        </a>
+                    </div>
+                    
+                    <div class="f24 mt40">
+                        <span class="cl-blue">Virus Corona Indonesia : </span><br>
+                        <span class="cl-yellow font-weight-bold">
+                            <span>20796 </span>
+                        </span>
+                        <span class="cl-blue">Kasus</span><br>
+                        <span class="cl-yellow font-weight-bold">
+                            <span>1326 </span>
+                        </span>
+                        <span class="cl-blue">Meninggal</span><br>
+                        <span class="cl-yellow font-weight-bold">
+                            <span>5057  </span>
+                        </span>
+                        <span class="cl-blue">Sembuh</span>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-around text-center">
+                        <div class="mt40">
+                            <img src="img/asset/upgrade/Image%202.jpg" alt="Halaman utama sehatdirumah.com">
+                            <h2 class="font-weight-bold f24 cl-blue mt15">Home</h2>
+                        </div>
+                        <div class="mt40">
+                            <img src="img/asset/upgrade/Image%203.jpg" alt="Halaman edukasi sehatdirumah.com">
+                            <h2 class="font-weight-bold f24 cl-blue mt15">Edukasi</h2>
+                        </div>
+                        <div class="mt40">
+                            <img src="img/asset/upgrade/Image%204.jpg" alt="Halaman Analisis Regional sehatdirumah.com">
+                            <h2 class="font-weight-bold f24 cl-blue mt15">Analisis Regional</h2>
+                        </div>
+                        <div class="mt40">
+                            <img src="img/asset/upgrade/Image%205.jpg" alt="Halaman Peringkat Regional sehatdirumah.com">
+                            <h2 class="font-weight-bold f24 cl-blue mt15">Peringkat Regional</h2>
+                        </div>
+                        <div class="mt40">
+                            <img src="img/asset/upgrade/Image%206.jpg" alt="Halaman Statistik provinsi sehatdirumah.com">
+                            <h2 class="font-weight-bold f24 cl-blue mt15">Statistik Provinsi</h2>
+                        </div>
+                    </div>
+                    
+                    <img class="mt45 pb100" src="img/asset/upgrade/logo%20sehat%20dirumah.svg" alt="logo sehatdirumah.com">
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("May 23, 2020 19:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("hari").innerHTML = days;
+                document.getElementById("jam").innerHTML = hours;
+                document.getElementById("menit").innerHTML = minutes;
+                document.getElementById("detik").innerHTML = seconds;
+
+            }, 250);
+        </script>
+
+
+    </body>
+</html>

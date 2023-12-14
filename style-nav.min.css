@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6{font-family:"Lato",sans-serif}.cl-aqua-forest{color:#6bab79}.cl-tangerine{color:#f38500}.cl-dusty-gray{color:#979797}.cl-white{color:#fff}.cl-black{color:#000}#bottom-nav{bottom:-130px;transition:.45s;transition-timing-function:ease-out;z-index:999}.sdr-navbar-lg{border-top:.5px solid #979797;background-color:#fff}.sdr-navbar-width{max-width:97% !important}.nav-hover:hover{transition:.2s;transition-timing-function:ease-out}.nav-ico-active{fill:#f38500;stroke:#f38500}.nav-hover:hover .nav-ico-active{fill:#979797;stroke:#979797}.nav-ico-def{fill:#979797;stroke:#979797}.nav-hover:hover .nav-ico-def{fill:#f38500;stroke:#f38500}.nav-font-active{color:#6bab79;font-weight:700}.nav-hover:hover .nav-font-active{color:#979797;font-weight:500}.nav-font-def{color:#979797;font-weight:500}.nav-hover:hover .nav-font-def{color:#6bab79;font-weight:700}.sdr-navbar-mobile-case{border-bottom:1px solid #979797}.sdr-caseview-mobile-width{max-width:100% !important}
+
+
+        .top-scroller {
+        position: fixed;
+            bottom: 300px;
+            right: 30px;
+            font-size: 1em;
+            display: none;
+            z-index: 2;
+            text-align: center;
+            cursor: pointer;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: #A1C4A9;
+            color: #fff;
+            line-height: 40px;
+        
+        }
+         .top-scroller:hover {
+            background: #6BAB79;
+        }
+        @media(min-width:985px){
+            .top-scroller {
+                position: fixed;
+                bottom: 170px;
+                right: 30px;
+                font-size: 1em;
+                display: none;
+                z-index: 2;
+                text-align: center;
+                cursor: pointer;
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background: #A1C4A9;
+                color: #fff;
+                line-height: 40px;
+            
+            }
+        }
+    
+        .share-button {
+        position: fixed;
+            bottom: 200px;
+            right: 30px;
+            font-size: 1em;
+
+            z-index: 2;
+            text-align: center;
+            cursor: pointer;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: #A1C4A9;
+            color: #fff;
+            line-height: 40px;
+        
+        }
+         .share-button:hover {
+            background: #6BAB79;
+        }
+        @media(min-width:985px){
+            .share-button {
+                position: fixed;
+                bottom: 70px;
+                right: 30px;
+                font-size: 1em;
+
+                z-index: 2;
+                text-align: center;
+                cursor: pointer;
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background: #A1C4A9;
+                color: #fff;
+                line-height: 40px;
+            
+            }
+        }
